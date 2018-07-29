@@ -1,0 +1,17 @@
+h1{
+color:red;
+font-family:cursive;
+}
+
+body
+{
+	background-image: url("1.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	text-align:center;
+	
+	
+	padding:5px;
+	font-family:candara;
+	font-size:10px;
+}

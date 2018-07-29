@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Book Store</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<div id="wrap">
+
+       <div class="header">
+       		<div class="logo"><a href="index.html"><img src="images/logo.gif" alt="" title="" border="0" /></a></div>            
+        <div id="menu">
+            <ul>                                                                       
+            <li class="selected"><a href="index.html">home</a></li>
+            <li><a href="about.html">about us</a></li>
+            <li><a href="category.html">books</a></li>
+            <li><a href="cart.html">view cart</a></li>
+			<li><a href="contact.html">review us</a></li>
+            </ul>
+        </div>     
+       </div>
+	   <div class="center_content">
+	   <p class="payment3">Debit Card</p>
+	   <form>
+	   <input type="radio" name="d1" value=""><img class="payment4" src="images/visa.gif"><br/>
+	   <input type="radio" name="d1" value=""><img class="payment4" src="images/maestro.gif"><br/>
+	     <input type="radio" name="d1" value=""><img class="payment4" src="images/mastercard.gif"><br/>
+       </form>
+	   <form class="payment5" action="cod.html">
+	   <fieldset>
+	   <legend><p class="payment3">Enter debit card details:</p></legend>
+	   <center>Debit Card number<br/><input type="text" name="cnumber" value="" pattern="[0-9][0-9]{15}" placeholder="Enter debitcard number" required><br/><br/>
+	   Card holder name<br/><input type="text" name="cname" value="" placeholder="As it appears on the card" required><br/><br/>
+	   Valid till<br/><input type="text" name="cdate1" pattern="[0-1][0-9]{1}" style="width:30px;" value="" placeholder="MM" required><input type="text name="cdate2" value="" pattern="[1-2][0-9]{3}' placeholder="YYYY" style="width:70px;" required><br/><br/>
+	   CVV<br/><input type="text" name="ccvv" style="width:50px;" value="" pattern="[0-9][0-9]{2}" placeholder="3-4 digit number" required><br/><br/>
+	   <input type="submit" value="paynow" name="cpay"><br/></center>
+	   </fieldset>
+	   </form>
+	   </table>
+	   </div>
+	   </div>
+	   </body>
+	   </html>

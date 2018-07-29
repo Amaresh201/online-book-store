@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Book Store</title>
+<link rel="stylesheet"  href="style.css" />
+</head>
+<body>
+<div id="wrap">
+
+       <div class="header">
+       		<div class="logo"><a href="index.html"><img src="images/logo.gif" alt="" title="" border="0" /></a></div>            
+        <div id="menu">
+            <ul>                                                                       
+            <li class="selected"><a href="index.html">home</a></li>
+            <li><a href="about.html">about us</a></li>
+            <li><a href="category.html">books</a></li>
+            <li><a href="cart.html">view cart</a></li>
+			<li><a href="contact.html">review us</a></li>
+            </ul>
+        </div>     
+       </div>
+	   <div class="center_content">
+	   <p class="payment3">Credit Card</p>
+	    <form class="payment5" action="cod.html">
+	   <input type="radio" name="d1" value=""><img class="payment4" src="images/visa.gif"><br/>
+	   <input type="radio" name="d1" value=""><img class="payment4" src="images/discover.gif"><br/>
+	     <input type="radio" name="d1" value=""><img class="payment4" src="images/american.gif"><br/>
+		 <fieldset>
+	  <legend><p class="payment3">Enter credit card details:</p></legend>
+	  <center>
+	   Credit Card number<br/><input type="text" name="cnumber" pattern="[0-9][0-9]{15}" value="" placeholder="Enter creditcard number" required><br/><br/>
+	   Card holder name<br/><input type="text" name="cname" value="" placeholder="As it appears on card" required><br/><br/>
+	   Valid till<br/><input type="text" name="cdate1" placeholder="MM" pattern="[0-9][0-9]{1}" value="" style="width:30px" required><input type="text name="cdate2" pattern="[1-2][0-9]{3}" value="" placeholder="YYYY" style="width:70px" required><br/><br/>
+	   CVV<br/><input type="text" name="ccvv" value="" pattern="[0-9][0-9]{2}" placeholder="3-4 digit number" style="width:50px;" required><br/><br/>
+	   <input type="submit" value="paynow" style="bg:brown;" name="cpay" required><br/></center>
+	   </fieldset>
+	   </form>
+	   </div>
+	   </div>
+	   </body>
+	   </html>

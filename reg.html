@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="bg.css">
+<script>
+function abc()
+{
+var pwd=document.forms[0].pwd.value;
+var cpwd=document.forms[0].confirmpwd.value;
+if(pwd==cpwd)
+{return true;}
+else
+{alert("please make sure password and confirm password must be same");
+return false;}
+}
+function abc1()
+{alert("you have succesfully logged in");}
+ 
+</script>
+</head>
+<body>
+<form onsubmit="return abc() && abc1()" action="index.html">
+
+<pre>
+      First Name:<input type="text" name="firstname" required><br/>
+       Last Name:<input type="text" name="lastname" required><br/>
+        Password:<input type="password" name="pwd"><br/>
+confirm password:<input type="password" name="confirmpwd"><br/>
+<h1> Are you male or female?</h1>
+ <input type="radio" name="sex" value="male">Male<br/>
+<input type="radio" name="sex" value="female">Female<br/>
+          email:<input type="email" pattern="[^ @]*@[gmail.com]*" required><br/>
+      mobile no:<input type="text" pattern="[789][0-9]{9}" required><br/>
+<input type="submit" value="submit"><br/><br/>
+</pre>
+</form>
+<form action="startpage.html">
+<h1>Click Here To Go Back<h1>
+<input type="submit" value="back" >
+</form>
+</body>
+</html>
